@@ -26,18 +26,18 @@ The identification of the most popular movies based on revenue and highest ratin
 
 An exploration of genre information involves counting the number of action movies and finding unique genre values.
 
-List of functions used in the "IMDB Movie Dataset Data Analysis" project:
+## List of functions used in the "IMDB Movie Dataset Data Analysis" project:
 
-## Pandas Functions:
+### Pandas Functions:
 
-pd.read_csv(): Reads the dataset from a CSV file.
-isnull().sum(): Counts the missing values in the dataset.
-dropna(): Drops rows with missing values.
-duplicated().any(): Checks for duplicate rows.
-describe(include='all'): Provides overall statistics about the data frame.
-**
-Matplotlib Functions:**
+1. pd.read_csv(): Reads the dataset from a CSV file.
+2. isnull().sum(): Counts the missing values in the dataset.
+3. dropna(): Drops rows with missing values.
+4. duplicated().any(): Checks for duplicate rows.
+5. describe(include='all'): Provides overall statistics about the data frame.
+   
+### Matplotlib Functions:
 
-plt.figure(figsize=(width, height)): Sets the figure size for plots.
-plt.title(): Adds a title to the plot.
-plt.show(): Displays the plot.
+1. plt.figure(figsize=(width, height)): Sets the figure size for plots.
+2. plt.title(): Adds a title to the plot.
+3. plt.show(): Displays the plot.
